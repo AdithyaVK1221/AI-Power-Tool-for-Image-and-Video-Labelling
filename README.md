@@ -56,13 +56,13 @@ This project is a **PyTorch + PyQt5 based medical imaging toolkit** for semi-aut
    ```bash
    python annotation_gui.py
    ```
-   - Select raw CT images from `data/raw/`  
+   - Select raw CT images from data/raw/  
    - Annotate with polygon or freehand tools  
    - Save JSON annotations  
 
 2. **Generate Masks & Train**
    - Use the **“Generate Masks and Train Model”** button to prepare masks & train  
-   - Models saved to `checkpoints/test_cases_segmentor.pth`  
+   - Models saved to checkpoints/test_cases_segmentor.pth  
 
 3. **Run Inference**
    - Enable **Show Model Prediction**  
@@ -77,4 +77,4 @@ This project is a **PyTorch + PyQt5 based medical imaging toolkit** for semi-aut
 ## 🌟 Motivation
 This project was built to explore how **AI-driven tools can assist radiologists** by speeding up lung disease segmentation, improving diagnostic consistency, and enabling scalable annotation pipelines.  
 
-> If even one radiologist saves time or one diagnosis becomes more reliable because of this tool, then every challenge in building it was worth it.  
+If even one radiologist saves time or one diagnosis becomes more reliable because of this tool, then every challenge in building it was worth it.  
